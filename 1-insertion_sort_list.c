@@ -24,7 +24,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *big, *small;
 
-	if (!(*list)->next)
+	if (!(list && (*list) && (*list)->next))
 		return;
 	big = (*list)->next;
 	while (big)
