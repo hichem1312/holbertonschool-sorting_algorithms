@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * switch - fonction switch 2 nodes
+ * twitch - fonction switch 2 nodes
  * @s: the big node
  * @b: the small node
  */
